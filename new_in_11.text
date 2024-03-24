@@ -1,0 +1,28 @@
+1. Laravel Reverb is a new first-party WebSocket server for Laravel applications, bringing real-time communication between client and server.
+    Some of the features of Reverb include.
+
+2.Streamlined Directory Structure
+3. No more Http/Kernel
+   Most of the things you used to could do in the Kernel you can now do in the Bootstrap/App.
+4. Model casts changes
+5. New Dumpable Trait
+6. Config Changes
+7. once() helper method.
+8. Slimmed default Migrations
+9. Routes changes
+   By default, there will be only two route files, console.php and web.php.
+   API routes will now become opt-in via php artisan install:api, giving you the API routes file and Laravel Sanctum.
+
+   The same with websocket broadcasting, php artisan install:broadcasting.
+10. New up Health Route
+11. APP_KEY Rotation
+12. Console Kernel Removed
+    The Console Kernel is being removed, and you'll be able to instead define your console commands right in routes/console.php.
+13. Named Arguments
+14. Eager Load Limit
+15. New Artisan Commands
+    php artisan make:class
+    php artisan make:enum
+    php artisan make:interface
+    php artisan make:trait
+16. New Welcome Page.
